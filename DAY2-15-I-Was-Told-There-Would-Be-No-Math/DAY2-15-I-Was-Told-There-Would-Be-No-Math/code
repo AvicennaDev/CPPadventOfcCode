@@ -1,0 +1,22 @@
+
+
+/*
+    for (size_t i = 0; i < line.length(); i++) {
+        number = number + (line[i] - '0');
+    }
+*/
+
+cout << number;
+
+ifstream in("day2-input.txt"); // окрываем файл для чтения
+
+if (in.is_open())  //  . открываем поле доп информации
+{
+    while (getline(in, line))
+    {
+        cout << line << endl;
+    }
+}
+in.close();// закрываем файл
+
+//cout << line << endl;

@@ -1,0 +1,107 @@
+
+# Файл ориентирован на использование среды разработки QT creator
+
+
+*.log
+*.bak
+*.so
+*.so.*
+
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Редактирует временные файлы
+*~
+
+# Файлы для Windows
+Thumbs.db
+рабочий стол.ini
+# Вещи, специфичные для Mac (спасибо Майклу Аарону Сафьяну)
+.DS_Store
+
+
+# Сгенерированные файлы MOC, ресурсов и пользовательского интерфейса 
+moc_*.cpp 
+qrc_*.cpp 
+ui_*.h 
+
+
+# Каталоги Debug и Release (созданные под Windows, а не под Linux ) 
+Debug/ 
+Release/ 
+
+
+# Qt-es
+object_script.*.Release
+object_script.*.Debug
+*_plugin_import.cpp
+/.qmake.cache
+/.qmake.stash
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+*build-*
+*.qm
+*.prl
+
+# Qt unit tests
+target_wrapper.*
+
+# QtCreator
+*.autosave
+
+# QtCreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
+
+# QtCreator CMake
+CMakeLists.txt.user*
+
+# QtCreator 4.8< compilation database
+compile_commands.json
+
+# QtCreator local machine specific files for imported projects
+*creator.user*
+
+*_qmlcache.qrc
+
